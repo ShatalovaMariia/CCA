@@ -12,6 +12,12 @@ describe('Complex Counter App', function () {
             expect(title).toEqual('Complex Counter App');
         })
 
+        it('TC-001 Page title is Complex Counter App', function () {
+            browser.url('');
+            const title = browser.getTitle();
+            expect(title).toEqual('Complex Counter App');
+        })
+
     });
 
     describe('Elements exist', function () {
