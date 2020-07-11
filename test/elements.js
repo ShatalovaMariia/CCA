@@ -78,7 +78,7 @@ describe('Complex Counter App', function () {
             const actual = $$(selectorCnt.counterName)[1].isDisplayed();
             expect(actual).toEqual(true);
         })
-        it('TC-017 Count Value', function () {
+        it('TC-017 Count Value', function () {  1``
             const actual = $(selectorCnt.countValue).isDisplayed();
             expect(actual).toEqual(true);
         })
